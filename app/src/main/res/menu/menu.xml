@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--tools:showIn="navigation_view"-->
+
+
+    <item android:id="@+id/new_game_dialog"
+        android:title="@string/new_game"
+        android:icon="@drawable/ic_baseline_videogame_asset_24"
+        />
+
+    <item android:id="@+id/top_list"
+        android:title="@string/top_list"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"/>
+</menu>

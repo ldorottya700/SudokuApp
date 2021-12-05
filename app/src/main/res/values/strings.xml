@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">New Game</string>
+    <string name="top_list">Toplist</string>
+    <string name="btn_new_game">Create</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="diff">Choose difficulty</string>
+    <string name="nickname">Nickname</string>
+    <string name="lecc_play">Create a new puzzle</string>
+    <string name="choose_cell">Choose cell</string>
+    <string name="default_player">Player</string>
+    <string name="write_name">Write your name there</string>
+    <string name="back_to_game">Back to game</string>
+    <string name="no_game">There is no game started, create one!</string>
+    <string name="end_game_string">You win!</string>
+    <string name="btn_end_game">Back to homescreen</string>
+    <string name="deleteinfo">You can delete fields by long press</string>
+
+
+    <string-array name="category_items">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

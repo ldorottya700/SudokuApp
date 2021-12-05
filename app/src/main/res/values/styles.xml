@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/select</item>
+        <item name="android:textColorSecondary">@color/select</item>
+        <item name="actionMenuTextColor">@color/select</item>
+
+    </style>
+
+</resources>

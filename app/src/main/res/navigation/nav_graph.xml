@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/backGameFragment">
+
+    <dialog
+        android:id="@+id/new_game_dialog"
+        android:name="hu.bme.aut.android.sudokuapp.fragments.NewGameDialogFragment"
+        android:label=""
+        tools:layout="@layout/dialog_new_game" >
+    </dialog>
+    <fragment
+        android:id="@+id/top_list"
+        android:name="hu.bme.aut.android.sudokuapp.fragments.TopListFragment"
+        android:label="Toplist"
+        tools:layout="@layout/top_list"/>
+    <fragment
+        android:id="@+id/game"
+        android:name="hu.bme.aut.android.sudokuapp.fragments.GameFragment"
+        android:label="Sudoku" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/backGameFragment"
+        android:name="hu.bme.aut.android.sudokuapp.fragments.BackGameFragment"
+        android:label="Home" />
+    <dialog
+        android:id="@+id/endGameDialogFragment"
+        android:name="hu.bme.aut.android.sudokuapp.fragments.EndGameDialogFragment"
+        android:label="" />
+
+</navigation>

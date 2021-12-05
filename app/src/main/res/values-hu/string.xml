@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="new_game">Új Játék</string>
+    <string name="top_list">Toplista</string>
+    <string name="btn_new_game">Kész</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="diff">Válassz nehézséget</string>
+    <string name="nickname">Játékos neve</string>
+    <string name="lecc_play">Új feladvány</string>
+    <string name="choose_cell">Válassz mezőt</string>
+    <string name="default_player">Játékos</string>
+    <string name="write_name">Írd be a neved</string>
+    <string name="back_to_game">Vissza a játékba</string>
+    <string name="no_game">Nincs elkezdett játék, csinálj egyet!</string>
+    <string name="end_game_string">Nyertél!</string>
+    <string name="btn_end_game">Vissza a kezdőoldalra</string>
+    <string name="deleteinfo">Törléshez tartsd a mezőt hosszan lenyomva</string>
+
+
+    <string-array name="category_items">
+        <item>Könnyű</item>
+        <item>Közepes</item>
+        <item>Nehéz</item>
+    </string-array>
+</resources>

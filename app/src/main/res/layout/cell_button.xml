@@ -1,0 +1,11 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/cell_button"
+        android:layout_width="@dimen/box_size"
+        android:layout_height="@dimen/box_size"
+        android:height="@dimen/box_size"
+        android:width="@dimen/box_size"
+        android:background="@color/purple_200"
+       />
+</merge>
